@@ -2,7 +2,7 @@
 
 The website is currently live at [https://mechmel.github.io/web-dev-final/](https://mechmel.github.io/web-dev-final/)
 
-I pulled information or used the following sources
+References
 
 - [Previous Personal Website for Inspiration](https://www.melchiahmauck.com)
 - [Favicon Tutorial](https://www.w3schools.com/html/html_favicon.asp)
