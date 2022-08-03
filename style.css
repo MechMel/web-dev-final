@@ -134,12 +134,23 @@ footer {
   display: flex;
 }
 
-.experience-ul {
-  width: 50%;
-  list-style-type: none;
-  margin: 0 auto;
-  padding: 0;
-  align-items: left;
+@media (max-width: 1300px) {
+  .experience-ul {
+    width: 90%;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    align-items: left;
+  }
+}
+@media (min-width: 1300px) {
+  .experience-ul {
+    width: 50%;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    align-items: left;
+  }
 }
 
 .experience-btn {
