@@ -19,56 +19,68 @@
     <div class="page-container">
       <div class="body-container">
         <nav class="nav-bar">
-          <li class="nav-btn">
-            <a href="index.html" class="nav-text">About</a>
+          <li>
+            <button onclick="goToPage('index.html')" class="nav-btn">
+              About
+            </button>
           </li>
-          <li class="nav-btn-here"><a href="" class="nav-text">Work</a></li>
-          <li class="nav-btn"><a href="" class="nav-text">Projects</a></li>
-          <li class="nav-btn"><a href="" class="nav-text">Contact</a></li>
+          <li>
+            <button class="nav-btn-here">Work</button>
+          </li>
+          <li>
+            <button class="nav-btn">Projects</button>
+          </li>
+          <li>
+            <button class="nav-btn">Contact</button>
+          </li>
         </nav>
         <header class="header">
           <h1 class="header-title">Previous Work</h1>
         </header>
         <ul class="experience-ul">
-          <li
-            class="experience-li"
-            onclick="openUrlInNewTab('https://www.tke.us')"
-          >
-            <img
-              src="images/tke-logo.jpg"
-              class="experience-pic"
-              alt="TKE's logo"
-            />
-            <div class="experience-text-container">
-              <h2 class="experience-title">TKE</h2>
-              <p class="chunk-body">
-                A few years ago my uncle need some small apps written for his
-                company, and so I stated TKE. Since then TKE has picked up
-                couple other clients as well, and we continute to work on small
-                app development projects for all three of them.
-              </p>
-            </div>
+          <li>
+            <button
+              class="experience-btn"
+              onclick="openUrlInNewTab('https://www.tke.us')"
+            >
+              <img
+                src="images/tke-logo.jpg"
+                class="experience-pic"
+                alt="TKE's logo"
+              />
+              <div class="experience-text-container">
+                <h2 class="experience-title">TKE</h2>
+                <p class="chunk-body">
+                  A few years ago my uncle need some small apps written for his
+                  company, and so I stated TKE. Since then TKE has picked up
+                  couple other clients as well, and we continute to work on
+                  small app development projects for all three of them.
+                </p>
+              </div>
+            </button>
           </li>
-          <li
-            class="experience-li"
-            onclick="openUrlInNewTab('https://www.clopas.net')"
-          >
-            <img
-              src="images/clopas-600-600-padded.jpg"
-              class="experience-pic"
-              alt="Clopas's logo"
-            />
-            <div class="experience-text-container">
-              <h2 class="experience-title">Clopas</h2>
-              <p class="chunk-body">
-                I spent about a year working for a game development company
-                named Clopas. I worked on their Redwall-themed text adventure
-                game "Escape the Gloomer". I mainly focused on the Unity UI, but
-                I also helped pioneer an Alexa port of the game, spent spent a
-                bunch of cleaning up the games core engine, and did some game
-                design.
-              </p>
-            </div>
+          <li>
+            <button
+              class="experience-btn"
+              onclick="openUrlInNewTab('https://www.clopas.net')"
+            >
+              <img
+                src="images/clopas-600-600-padded.jpg"
+                class="experience-pic"
+                alt="Clopas's logo"
+              />
+              <div class="experience-text-container">
+                <h2 class="experience-title">Clopas</h2>
+                <p class="chunk-body">
+                  I spent about a year working for a game development company
+                  named Clopas. I worked on their Redwall-themed text adventure
+                  game "Escape the Gloomer". I mainly focused on the Unity UI,
+                  but I also helped pioneer an Alexa port of the game, spent
+                  spent a bunch of cleaning up the games core engine, and did
+                  some game design.
+                </p>
+              </div>
+            </button>
           </li>
         </ul>
       </div>

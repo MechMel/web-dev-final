@@ -30,11 +30,20 @@ body {
 
 .nav-btn,
 .nav-btn-here {
+  background-color: var(--background-color);
+  border: none;
+  text-align: center;
+  font-family: var(--primary-font);
+  font-size: 1.25rem;
+  font-weight: 100;
+  color: var(--primary-text-color);
+  text-decoration: none;
   padding: 1.25rem;
 }
 
 .nav-btn:hover {
   background-color: var(--hover-gray);
+  cursor: pointer;
 }
 
 .nav-btn-here {
@@ -122,15 +131,18 @@ footer {
   align-items: left;
 }
 
-.experience-li {
+.experience-btn {
+  background-color: var(--background-color);
+  border: none;
   padding: 1rem;
   display: flex;
   border-radius: 1rem;
   align-items: center;
 }
 
-.experience-li:hover {
+.experience-btn:hover {
   background-color: var(--hover-gray);
+  cursor: pointer;
 }
 
 .experience-pic {
@@ -140,6 +152,7 @@ footer {
 }
 
 .experience-title {
+  text-align: start;
   font-family: var(--primary-font);
   font-size: 2rem;
   font-weight: 100;
