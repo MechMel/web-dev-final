@@ -142,6 +142,14 @@ footer {
     padding: 0;
     align-items: left;
   }
+
+  .experience-btn {
+    background-color: var(--background-color);
+    border: none;
+    padding: 1rem;
+    border-radius: 1rem;
+    align-items: center;
+  }
 }
 @media (min-width: 1300px) {
   .experience-ul {
@@ -151,15 +159,15 @@ footer {
     padding: 0;
     align-items: left;
   }
-}
 
-.experience-btn {
-  background-color: var(--background-color);
-  border: none;
-  padding: 1rem;
-  display: flex;
-  border-radius: 1rem;
-  align-items: center;
+  .experience-btn {
+    background-color: var(--background-color);
+    border: none;
+    padding: 1rem;
+    display: flex;
+    border-radius: 1rem;
+    align-items: center;
+  }
 }
 
 .experience-btn:hover {
