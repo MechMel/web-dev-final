@@ -14,6 +14,7 @@ I pulled information or used the following sources
 - [Google Auto-fill Styling Override Tutorial](https://stackoverflow.com/questions/2781549/removing-input-background-colour-for-chrome-autocomplete)
 - [Reacting to Changes in an Input Field](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/change_event)
 - [Getting Input Value Tutorial](https://www.delftstack.com/howto/javascript/javascript-get-input-value/)
+- [Hidden Elements Tutorial](https://www.w3schools.com/tags/att_hidden.asp)
 - [Roboto from Google Fonts](https://fonts.google.com/specimen/Roboto)
 - [Images from Axiom Hoist](https://www.axiomhoist.com)
 - [Images from Clopas](https://www.clopas.net)
