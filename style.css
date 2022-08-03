@@ -1,3 +1,4 @@
+/* SECTION: Page Layout */
 :root {
   --footer-height: 3rem;
   --background-color: #1e1e1e;
@@ -21,6 +22,25 @@ body {
   padding-bottom: var(--footer-height);
 }
 
+.footer {
+  width: 100%;
+  height: var(--footer-height);
+  background-color: #131313;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+}
+
+.footer-text {
+  padding-left: 0.75rem;
+  font-family: var(--primary-font);
+  font-size: 1rem;
+  font-weight: 100;
+  color: #a0a0a0;
+  text-decoration: none;
+}
+
+/* SECTION: Nav Bar */
 .nav-bar {
   width: 100%;
   list-style-type: none;
@@ -60,6 +80,7 @@ body {
   text-decoration: none;
 }
 
+/* SECTION: Header */
 .header {
   background-image: url("images/code_blurred.png");
   background-size: cover;
@@ -90,6 +111,7 @@ body {
   text-align: center;
 }
 
+/* SECTION: Basic Body Chunk */
 @media (max-width: 1300px) {
   .chunk,
   .form-chunk {
@@ -128,15 +150,7 @@ body {
   padding: 0;
 }
 
-footer {
-  width: 100%;
-  height: var(--footer-height);
-  background-color: #131313;
-  position: absolute;
-  bottom: 0;
-  display: flex;
-}
-
+/* SECTION: Experience */
 @media (max-width: 1300px) {
   .experience-ul {
     width: 90%;
@@ -206,6 +220,7 @@ footer {
   line-height: 1.5rem;
 }
 
+/* SECTION: Contact Form */
 .form-chunk {
   padding: 1rem;
 }
@@ -293,13 +308,4 @@ input:-webkit-autofill:active {
 .form-btn-secondary:hover {
   border: none;
   background-color: #4e4e4e;
-}
-
-.footer-text {
-  padding-left: 0.75rem;
-  font-family: var(--primary-font);
-  font-size: 1rem;
-  font-weight: 100;
-  color: #a0a0a0;
-  text-decoration: none;
 }
