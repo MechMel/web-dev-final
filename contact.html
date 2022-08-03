@@ -51,7 +51,7 @@
 
         <!-- Contents -->
         <form action="" class="form-chunk">
-          <div class="two-input-row">
+          <div class="form-row">
             <input
               type="text"
               id="name"
@@ -69,13 +69,19 @@
             />
           </div>
           <div class="cube-1rem"></div>
-          <div class="two-input-row">
+          <div class="form-row">
             <textarea
               id="message"
               name="message"
               placeholder="Enter your message here..."
               class="text-input-multi-line"
             ></textarea>
+          </div>
+          <div class="cube-1rem"></div>
+          <div class="form-row">
+            <button action="submit" class="form-btn-primary">Submit</button>
+            <div class="cube-1rem"></div>
+            <button action="reset" class="form-btn-secondary">Clear</button>
           </div>
         </form>
       </div>
@@ -85,5 +91,6 @@
         <p class="footer-text">Made by Melchiah Mauck</p>
       </footer>
     </div>
+    <script src="set-up-input-styling.js"></script>
   </body>
 </html>
