@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Melchiah Mauck</title>
-    <link rel="icon" type="image/png" href="images/favicon.png" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Styling -->
+    <title>Melchiah Mauck</title>
+    <link rel="icon" type="image/png" href="images/favicon.png" />
     <link rel="stylesheet" href="style.css" />
+
+    <!-- Imports the Roboto font. -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,6 +22,7 @@
     <script src="utils.js"></script>
     <div class="page-container">
       <div class="body-container">
+        <!-- Nav Bar -->
         <nav class="nav-bar">
           <li>
             <button onclick="goToPage('index.html')" class="nav-btn">
@@ -38,10 +43,44 @@
             <button class="nav-btn-here">Contact</button>
           </li>
         </nav>
+
+        <!-- Header -->
         <header class="header">
           <h1 class="header-title">Contact Me</h1>
         </header>
+
+        <!-- Contents -->
+        <form action="" class="form-chunk">
+          <div class="two-input-row">
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Name"
+              class="text-input"
+            />
+            <div class="cube-1rem"></div>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email"
+              class="text-input"
+            />
+          </div>
+          <div class="cube-1rem"></div>
+          <div class="two-input-row">
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Enter your message here..."
+              class="text-input-multi-line"
+            ></textarea>
+          </div>
+        </form>
       </div>
+
+      <!-- Footer -->
       <footer>
         <p class="footer-text">Made by Melchiah Mauck</p>
       </footer>

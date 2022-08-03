@@ -3,7 +3,8 @@
   --background-color: #1e1e1e;
   --hover-gray: #3e3e3e;
   --primary-font: "Roboto", sans-serif;
-  --primary-text-color: white;
+  --text-color-primary: white;
+  --text-color-blank: #aaaaaa;
 }
 
 body {
@@ -36,7 +37,7 @@ body {
   font-family: var(--primary-font);
   font-size: 1.25rem;
   font-weight: 100;
-  color: var(--primary-text-color);
+  color: var(--text-color-primary);
   text-decoration: none;
   padding: 1.25rem;
 }
@@ -55,7 +56,7 @@ body {
   font-family: var(--primary-font);
   font-size: 1.25rem;
   font-weight: 100;
-  color: var(--primary-text-color);
+  color: var(--text-color-primary);
   text-decoration: none;
 }
 
@@ -85,12 +86,13 @@ body {
   font-family: var(--primary-font);
   font-size: 4rem;
   font-weight: 100;
-  color: var(--primary-text-color);
+  color: var(--text-color-primary);
   text-align: center;
 }
 
 @media (max-width: 1300px) {
-  .chunk {
+  .chunk,
+  .form-chunk {
     margin: 0 auto;
     width: 90%;
     padding: 0 0 1rem 0;
@@ -98,7 +100,8 @@ body {
   }
 }
 @media (min-width: 1300px) {
-  .chunk {
+  .chunk,
+  .form-chunk {
     margin: 0 auto;
     width: 50%;
     padding: 0 0 1rem 0;
@@ -110,7 +113,7 @@ body {
   font-family: var(--primary-font);
   font-size: 3rem;
   font-weight: 100;
-  color: var(--primary-text-color);
+  color: var(--text-color-primary);
   line-height: 1rem;
   padding: 0;
 }
@@ -120,7 +123,7 @@ body {
   font-family: var(--primary-font);
   font-size: 1.25rem;
   font-weight: 100;
-  color: var(--primary-text-color);
+  color: var(--text-color-primary);
   line-height: 1.5rem;
   padding: 0;
 }
@@ -186,7 +189,7 @@ footer {
   font-family: var(--primary-font);
   font-size: 2rem;
   font-weight: 100;
-  color: var(--primary-text-color);
+  color: var(--text-color-primary);
   line-height: 1rem;
   padding: 0;
 }
@@ -201,6 +204,56 @@ footer {
   font-weight: 100;
   color: #6677d0;
   line-height: 1.5rem;
+}
+
+.form-chunk {
+  padding: 1rem;
+}
+
+.two-input-row {
+  display: flex;
+}
+
+.cube-1rem {
+  width: 1rem;
+  height: 1rem;
+}
+
+.text-input,
+.text-input-multi-line {
+  background-color: var(--background-color);
+  border-radius: 0.25rem;
+  outline: 0.1rem solid var(--text-color-blank);
+  text-align: left;
+  font-family: var(--primary-font);
+  font-size: 1.25rem;
+  font-weight: 100;
+  color: var(--text-color-primary);
+  line-height: 1.5rem;
+  padding: 0.25rem;
+  width: 50%;
+}
+
+.text-input:focus,
+.text-input-multi-line:focus {
+  outline: 0.1rem solid var(--text-color-primary);
+}
+
+.text-input-multi-line {
+  height: 16rem;
+  width: 100%;
+  resize: none;
+}
+
+/* Override Chrome's auto-fill styling */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  box-shadow: 0 0 0 30px var(--background-color) inset !important;
+  -webkit-box-shadow: 0 0 0 30px var(--background-color) inset !important;
+  -webkit-text-fill-color: var(--text-color-primary) !important;
+  color: var(--text-color-primary);
 }
 
 .footer-text {
